@@ -9,7 +9,17 @@ As training data I was using the images provided by Udacity: [train.zip](https:/
 
 ## Network overview
 
+The network we use consists of the following main components: input, encoder, 1x1 convolution, decoder, output.
 
+### Input
+
+The original images were resized to 160x160 with 3 color components. As result, the images are stored in <Batch size>x160x160x3 tensors.
+  
+### Encoder
+
+Conceptually, this layer encodes high level information about what's on the image in a short vector representaton. Each point in the encoder layer output was calculated based on inputs from different image regions. That will help us to produce more stable segmentation results as we can not reliably classify a pixel based on its local neighborhood  only. 
+
+### Full model graph
 
 
 ## Experiments
