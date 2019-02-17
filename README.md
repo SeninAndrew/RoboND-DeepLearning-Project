@@ -48,7 +48,7 @@ Number of layers is the same as in the encoder.
 ### Full model graph
 
 This is Keras visualization of the graph:
-model.png
+![Keras model visualization](https://github.com/SeninAndrew/RoboND-DeepLearning-Project/blob/master/model.png)
 
 
 ## Experiments
