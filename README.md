@@ -45,6 +45,10 @@ The decoder components restores information encoded in the previous layers and p
 
 Number of layers is the same as in the encoder.
 
+### Hyperparameters
+
+There are
+
 ### Full model graph
 
 This is Keras visualization of the graph:
